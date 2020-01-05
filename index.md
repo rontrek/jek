@@ -9,7 +9,7 @@ title: NorthStack Example Blog
             {% if post.image.feature %}
                 <img src="{{ post.image.feature }}" />
             {% else %}        
-                <img src="http://lorempixel.com/200/100/" />
+                <img src="https://lorempixel.com/200/100/" />
             {% endif %}    
             <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
             Published on {{ post.date | date_to_string }}
