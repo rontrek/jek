@@ -1,0 +1,7 @@
+fieldset {
+ border: none;
+}
+
+.comment.child {
+ padding: 20px;
+}
