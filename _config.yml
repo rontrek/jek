@@ -18,3 +18,8 @@ markdown: kramdown
 plugins:
   - jekyll-redirect-from
   - jemoji  
+
+staticman:
+  # Name of repository, for use with Staticman
+  # repository: "wini3d/minimaj"
+  branch: "master"
