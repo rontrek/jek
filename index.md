@@ -11,7 +11,7 @@ title: NorthStack Example Blog
             {% else %}        
                 <img src="http://lorempixel.com/200/100/" />
             {% endif %}    
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
             Published on {{ post.date | date_to_string }}
             {{ post.excerpt }}
         </article>
