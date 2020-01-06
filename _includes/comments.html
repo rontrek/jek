@@ -13,12 +13,8 @@
         {% comment %}
         {% assign comments = site.data.comments[page.slug] | sort | where_exp: 'comment', 'comment[1].replying_to == blank' %}        
         {% endcomment %}
-             
-        
-        {% comment %}
+                     
         {% assign comments = site.data.comments[page.slug] | sort | where_exp: 'comment', 'comment[1].replying_to == blank' %}        
-        {% endcomment %}        
-        {% assign comments = site.data.comments[page.slug] | sort: 'date' | reverse %}        
         {% for comment in comments %}
           {% assign index       = forloop.index %}
           {% assign replying_to = comment[1].replying_to | to_integer %}
