@@ -10,7 +10,7 @@ description: Test
 locale: en
 github_username:  wini3d
 
-repository: "wini3d/jek"
+repository: "rontrek/jek"
 
 # Build settings
 markdown: kramdown
